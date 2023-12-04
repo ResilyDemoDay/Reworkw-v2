@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Westmount';
+    src: url(/fonts/Westmount\ Regular.otf);
+    font-family: 'WestmountBold';
+    src: url(/fonts/Westmount\ Bold.otf);
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Westmount', sans-serif;
+
+}
+body{
+    background:  #fff ;
+   overflow: hidden;
+}
+
+img {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.main {
+    margin-left: 60px;
+}
+
+
+.logo-meio {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 655px;
+    height: 580px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 50px;
+}
+
+.btn {
+    width: 280px;
+    margin-right: 55px;
+    border-radius: 11px;
+    background: rgba(43, 23, 44, 0.65);
+    box-shadow: -4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;  
+}
+
+
+.cadastro{
+    margin-left: 60px; 
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    margin-right: 60px;
+    color: white;
+    
+}
+
+label{
+    color: #5E3963;
+    font-family: 'WestmountBold';
+}
+
+input {
+    width: 597px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: solid 1px #E27ACC;
+    outline-style: none;
+    background-color: transparent;
+    color: #000;
+}

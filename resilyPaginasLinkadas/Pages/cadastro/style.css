@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* cor de fundo e ocupando 100% da tela */
+body {
+  background: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* deixando a logo no meio */
+.logo-meio {
+  display: flex;
+  justify-content: center;
+}
+.logo-meio img {
+  width: 200px;
+  height: 200px;
+  margin-top: 130px;
+}
+
+/* deixando o pai de todos no display flex */
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+/* tamanho do espaço do form */
+
+.container {
+  width: 655px;
+  height: 580px;
+  margin-top: 18px;
+}
+
+/* Configuração do form */
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+form label {
+  color: #5e3963;
+
+  font-size: 24px;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  outline-style: none;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background: transparent;
+  border-color: #e27acc;
+  color: #000;
+  font-size: 24px;
+}
+
+/* FIM Configuração do form */
+
+/* Config botões */
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn button {
+  width: 282px;
+  height: 50px;
+  border-radius: 11px;
+  background: rgba(43, 23, 44, 0.65);
+  box-shadow: -4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-left: 10px;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-parceiro {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.parceiro {
+  width: 369px;
+  height: 50px;
+  border-radius: 11px;
+  background: rgba(43, 23, 44, 0.65);
+  box-shadow: -4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.parceiro a {
+  text-decoration: none;
+  color: #fff;
+}
+/* FIM Config botões */
