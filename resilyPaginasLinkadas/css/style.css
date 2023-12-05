@@ -63,7 +63,7 @@ body{
     height: 100%;
     font-family: 'westmount';
 }
-/* CABEÇALHO */
+/* CABEÃ‡ALHO */
 .cabecalho{
     position: fixed;
     top: 0;
@@ -132,12 +132,11 @@ a:hover{
     height: 514px;
     margin-bottom: 10px;
     top: 113px;
-    left: 158px;
+    left: 104px;
     border-radius: 45px;
     box-shadow: 7px 6px 8.1px #00000091;
-    background: rgb(236,123,212);
-    background: linear-gradient(145deg, rgba(236,123,212,0.9178046218487395) 7%, rgba(58,49,75,0.9598214285714286) 68%, rgba(45,46,74,0.9822303921568627) 78%);
-}
+    background-color: #2D2E4A;
+    }
 .boxTop .logoCentro{
     display: flex;
     justify-content: center;
@@ -220,7 +219,7 @@ a:hover{
 
 
 
-/* CONHAÇA A RESILY */
+/* CONHAÃ‡A A RESILY */
 .sobre-nos{
     margin-top: 90px;
     display: flex;
@@ -239,6 +238,7 @@ a:hover{
     position: absolute;
     top: 2053px;
     left: 20px;
+    margin-bottom: 100px;
 }
 
 .card0{
@@ -313,8 +313,7 @@ a:hover{
     height: 53px;
     border-radius: 10px;
     box-shadow: var(--SOMBRA);
-    background: rgb(45,46,74);
-    background: linear-gradient(317deg, rgba(45,46,74,1) 14%, rgba(236,123,212,1) 100%);
+    background-color: #e277cd;
 }
 
 .textoBotao{
@@ -409,8 +408,7 @@ line-height: normal;
     height: 53px;
     border-radius: 10px;
     box-shadow: var(--SOMBRA);
-    background: rgb(45,46,74);
-    background: linear-gradient(317deg, rgba(45,46,74,1) 14%, rgba(236,123,212,1) 100%);
+    background-color:#e277cd
 }
 
 .textoBotao2{
@@ -518,8 +516,7 @@ line-height: normal;
     height: 53px;
     border-radius: 10px;
     box-shadow: var(--SOMBRA);
-    background: rgb(45,46,74);
-    background: linear-gradient(317deg, rgba(45,46,74,1) 14%, rgba(236,123,212,1) 100%);
+    background-color: #e277cd;
 }
 
 .textoBotao3{
@@ -601,9 +598,99 @@ text-decoration: none;
     z-index: 1;
 }
 
+
+
+.boxIdentidadeVisual{
+    display: flex;
+    align-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 31px;
+}
+
+.econtentIdentidadeVisual p{
+    font-size: 40px;
+    color: #5E3963;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -59px;
+}
+
+.econtentIdentidadeVisual{
+    position: relative;
+    width: 1006px;
+    height: 514px;
+    top: 744px;
+    left: 186px;
+    display: flex;
+    justify-content: center;
+    background-color: #C8C0DC;
+    align-items: center;
+    border-radius: 50px;
+}
+
+
+.cores.imgIdentidadeVisual {
+    display: flex;
+
+}
+.imgIdentidadeVisual{
+    position: absolute;
+    display: flex;
+    left: 59px;
+    top: 26px;
+    scale: 92%;
+}
+.coresIndentidadeVisual .rosaIdentidadeVisual{
+    display: flex;
+    position: absolute;
+    top: 137px;
+    left: 11px;
+    text-align: left;
+    font-size: 20px;
+    width: 16rem;
+    text-align: left;
+    font-weight: bold;
+}
+.coresIndentidadeVisual .azulIdentidadeVisual{
+    display: flex;
+    position: absolute;
+    top: 326px;
+    left: 11px;
+    text-align: left;
+    font-size: 20px;
+    width: 16rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.logoImagensIdentidade{
+    display: flex;
+    position: absolute;
+    top: 162px;
+    left: 418px;
+}
+
+
+
+.espacoEntre{
+    position: relative;
+    width: 1006px;
+    height: 514px;
+    top: 800px;
+    left: 186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* SIGN IN */
 
 
 
 /* LOGIN *//*
+
 
