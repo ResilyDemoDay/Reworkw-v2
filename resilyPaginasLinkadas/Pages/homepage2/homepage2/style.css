@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #E7E7E7;
+}
+
+
+/*Navbar Start*/
+#navbar {
+    width: 200px;
+    height: 1000px;
+    position: fixed;
+    border-radius: 20px;
+    background: #2D2E4A;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+}
+
+.navbar-soon {
+    color: #FFF;
+    border-bottom: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    letter-spacing: 1.35px;
+    line-height: normal;
+    font-family: Westmount;
+
+}
+
+/*Navbar End*/
+
+
+
+/*Section Start*/
+section {
+    width: 468px;
+    height: 1024px;
+    background: #E6E6E6;
+    margin-left: 200px;
+    border-radius: 25px;
+}
+
+section h1 {
+    font-size: 38px;
+    letter-spacing: 2.3px;
+    margin-left: 50px;
+}
+
+section p {
+    font-size: 25px;
+    letter-spacing: 4.8px;
+    margin-left: 50px;
+
+}
+
+section .cartão {
+    width: 434px;
+    height: 225px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border-radius: 25px;
+    background: #756182;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+.foto {
+    width: 126px;
+    height: 126px;
+    flex-shrink: 0;
+    border-radius: 126px;
+    transform: translateY(-60px);
+    margin-left: 20px;
+}
+
+/*Sectiom End*/
+
+
+/*Section  Secondary Start*/
+section .secondary {
+    width: 384px;
+    height: 240px;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: url(img/Rectangle\ 100.png), lightgray -3.483px -2.223px / 101.11% 101.589% no-repeat;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+}
+
+/*Section  Secondary End*/
+
+
+/*Section Small Start*/
+section .small {
+    width: 384px;
+    height: 240px;
+    border-radius: 25px;
+    margin-left: 15px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+    background: url(img/Rectangle\ 101.png), lightgray -3.483px -2.223px / 101.11% 101.589% no-repeat;
+    ;
+}
+
+/*Section Small End*/
+
+
+/*Main Start*/
+main {
+    width: 840px;
+    height: 1000px;
+    background: #FFF;
+    float: right;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.container {
+    position: relative;
+}
+
+.card {
+    width: 333px;
+    height: 372px;
+    border-radius: 25px;
+    background: rgba(209, 209, 209, 0.66);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.card-2 {
+    left: 450px;
+}
+
+.title {
+    width: 333px;
+    height: 62px;
+    border-radius: 24px 21px 0px 0px;
+    background: #EC87CF;
+}
+
+.inicio {
+    color: #000;
+    font-family: Westmount;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-align: center;
+}
+
+.inicio-1 {
+    letter-spacing: 4.4px;
+}
+
+.inicio-2 {
+    letter-spacing: 2.6px;
+}
+
+.cartao {
+    width: 721px;
+    height: 483px;
+    border-radius: 25px;
+    background: #E1E1E1;
+    margin-left: 60px;
+    margin-top: 480px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+}
+
+.cartoon {
+    width: 721px;
+    height: 50px;
+    border-radius: 23px 23px 0px 0px;
+    background: #EC87CF;
+}
+
+.fim {
+    color: #000;
+    font-family: Westmount;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 12.6px;
+    text-align: center;
+}
+
+/*Main End*/

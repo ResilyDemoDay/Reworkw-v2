@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #E7E7E7;
+}
+
+
+/*Navbar Start*/
+#navbar {
+    width: 200px;
+    height: 1000px;
+    position: fixed;
+    border-radius: 20px;
+    background: #2D2E4A;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+}
+
+.navbar-soon {
+    color: #FFF;
+    border-bottom: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    letter-spacing: 1.35px;
+    line-height: normal;
+    font-family: Westmount;
+}
+
+/*Navbar End*/
+
+
+/*Main Start*/
+main {
+    float: right;
+    width: 434px;
+    height: 1000px;
+    border-radius: 25px;
+    margin-top: 25px;
+    background: #E277CD;
+}
+
+main .cartoon {
+    width: 434px;
+    height: 225px;
+    border-radius: 25px;
+    background: #756182;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+}
+
+.foto {
+    width: 95px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 95px;
+    transform: translateY(-35px);
+}
+
+.calendario {
+    width: 394px;
+    height: 307px;
+    border-radius: 20px;
+    border: 3px solid #ccc;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mes {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dias-semana {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.dias div {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+main .carta {
+    width: 394px;
+    height: 190px;
+    border-radius: 20px;
+    background: rgba(117, 97, 130, 0.45);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+    margin-top: 30px;
+    margin-left: 22px;
+}
+
+main .cart {
+    width: 394px;
+    height: 40px;
+    border-radius: 20px 20px 0px 0px;
+    background: #756182;
+}
+
+main .titulo {
+    color: #FFF;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.08px;
+    text-align: center;
+}
+
+/*Main End*/
+
+
+/*Header Start*/
+header h1 {
+    font-size: 38px;
+    letter-spacing: 2.3px;
+    margin-left: 250px;
+}
+
+header p {
+    font-size: 25px;
+    letter-spacing: 4.8px;
+    margin-left: 250px;
+}
+
+/*Header End*/
+
+
+/*Section Card Start*/
+section .card {
+    width: 752px;
+    height: 308px;
+    margin-left: 250px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid #B0A3BA;
+    background: rgba(200, 192, 220, 0.40);
+    box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+
+}
+
+section .title {
+    width: 752px;
+    height: 82px;
+    background: #C8C0DC;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+section .inicio {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 8px;
+}
+
+/*Section Card End*/
+
+
+
+/*Section  Secondary Start*/
+section .secondary {
+    width: 690px;
+    height: 290px;
+    border-radius: 25px;
+    margin-left: 280px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: url(img/Rectangle\ 100.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+}
+
+/*Section  Secondary End*/
+
+
+
+/*Section little Start*/
+section .little {
+    width: 337px;
+    height: 197px;
+    border-radius: 25px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+    background: url(img/Rectangle\ 63.png),lightgray -3.483px -2.223px / 101.11% 101.589% no-repeat;
+}
+
+/*Section little End*/
+
+
+
+/*Section Small Start*/
+section .small {
+
+    width: 328px;
+    height: 196px;
+    border-radius: 25px;
+    margin-left: 360px;
+    margin-bottom: 50px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
+    background: url(img/Rectangle\ 101.png), lightgray -3.483px -2.223px / 101.11% 101.589% no-repeat;
+}
+
+/*Section Small End*/
