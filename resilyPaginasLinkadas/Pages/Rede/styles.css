@@ -227,21 +227,21 @@ table {
 }
 
 
+
+
+
 .bemVindo {
-    margin-right: 72.5rem;
-    padding-left: 7rem;
-    align-items: start;
-    color: black;
-    margin-left: 1.875rem;
-    float: right;
-    margin-top: -38.75rem;
-    position: absolute;
-}
+  margin-left: 11rem;
+  margin-top: 2rem;
+ 
+  
+}   
 
 
 .txtBemVindo {
     font-size: 1.563rem;
     width: 9.375rem;
+  
     
 }
 
@@ -250,27 +250,117 @@ table {
 
 }
 
+/* 
+.carrosselFlex{
+    display: flex;
+    justify-content: flex-start;
+    
+} */
 
 .carrossel {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     background: #2D2E4A;
-    width: 62rem;
-    height: 19.375rem;
-    margin-left: 18.75rem;
-    margin-top: 6.25rem;
+    width: 58rem;
+    height: 22rem;
+    margin-left: 11rem;
+    margin-top: 0.5rem;
 
 }
+
+
+.capaPerfil{
+ 
+    border-radius: 25px;
+    width: 21.875rem;
+    height: 12.5rem;
+    background: url(./img/capa.png);
+    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.calendario {
+
+    float: left;
+    width: 300px;
+    height: 307px;
+    border-radius: 20px;
+    border: 3px solid #ccc;
+    max-width: 300px;
+    margin-left: 1rem;
+    padding: 20px;
+    margin-bottom: 3rem;
+   
+} 
+
+.mes {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dias-semana {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.dias div {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.containerCalendario{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column-reverse;
+    float: right;
+    width: 350px;
+    height: 700px;
+    border-radius: 25px;
+    background: rgb(226, 119, 205);
+    margin-left: 2rem;
+    margin-right: -24rem;
+    margin-top: -4.5rem;
+}
+
+
+/* .consultas{
+    
+    width: 100px;
+    height: 50px;
+    background-color: red;
+
+}  */
 
 
 .compartilhe {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.625rem;
-    margin-left: 17rem;
+    margin-top: -26rem;
+    margin-left: 15rem;
 
 }
 
@@ -278,13 +368,15 @@ table {
 .novoPost{
     display: flex;
     height: 10rem ;
-    width: 54rem;
+    width: 50rem;
     border-radius: 10px;
     border: none;
     resize: none;
     justify-content: center;
-    margin-left: 2rem;
-    margin-top: 0.313rem;
+    margin-left: 13rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 27rem;
     background: #ffffff;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
     
@@ -292,9 +384,8 @@ table {
 }
 
 .compartilhe button{
-    width: 30rem;
-    margin-left: 15.4rem;
-    margin-top: 1rem;
+    width: 40rem;
+    margin-left: -10rem;
     height: 1.875rem;
     border-radius: 30px;
     background-color: #B0A3BA;
@@ -307,13 +398,15 @@ table {
     background-color: #F5F5F5;
 }
 
+
+
 .boxContainer {
-    width: 1018px;
-    height: 1305px;
+    width: 52.875rem;
+    height: 81.563rem;
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
-    margin-left: 280px;
+    margin-left: 180px;
     margin-top:1.25rem;
     display: flex;
     flex-direction: column;
@@ -324,26 +417,27 @@ table {
 .post {
     margin-left: 2.188rem;
     margin-top: 1.25rem;
-    width: 59.313rem;
+    width: 48.6rem;
     height: 23.188rem;
     flex-shrink: 0;
     border-radius: 25px;
     background: rgba(236, 135, 207, 0.62);
-
+    
 
 }
+
 
 .circulo img {
     width: 5.75rem;
     height: 5.75rem;
     border-radius: 50%;
-    margin-right: -10%;
+    margin-right: 15rem;
     float: right;
-    margin-top: 1rem;
+    margin-top: 8rem;
 }
 
 .espacoPost {
-    width: 54.188rem;
+    width: 44.188rem;
     height: 12.5rem;
     flex-shrink: 0;
     border-radius: 1.625rem;
@@ -354,15 +448,18 @@ table {
     flex-direction: column;
     justify-content: space-around;
     
+    
 }
 
 .conteudoPost{
    padding: 3.125rem;
+   max-width: 100%; 
+    overflow-wrap: break-word; 
 }
 
 .perfilPost{
     margin-left: 1.313rem;
-    margin-top: 0.813rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     
@@ -387,7 +484,7 @@ table {
     width: 5.75rem;
     height: 5.75rem;
     border-radius: 50%;
-    margin-top: 0.813rem;
+    margin-top: 1rem;
 }
 
 @media (max-width: 605px) {
