@@ -1,698 +1,255 @@
-@font-face {
-    font-family: 'Westmount';
-    src: url(/fonts/Westmount\ Regular.otf);
-    font-family: 'WestmountBold';
-    src: url(/fonts/Westmount\ Bold.otf);
+<!DOCTYPE html>
+<html lang="pt-br">
 
-}
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/VectorResily.png" type="image/x-icon">
+    <link rel="stylesheet" href="./rede.css">
 
 
+    <title>RESILY</title>
+</head>
 
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+<body>
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
+    <div class="responsive">
 
-body {
-    line-height: 1;
-    font-family: 'Westmount', sans-serif;
-    background: rgba(231, 231, 231, 0.91);
-    ;
-}
+        <header class="navbar">
 
-ol,
-ul {
-    list-style: none;
-}
 
-blockquote,
-q {
-    quotes: none;
-}
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
+            <div class="nav">
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+                <div class="logo">
+                    <a href=""><img src="./img/resily_home.png" alt="Logo da resily"></a>
+                </div>
 
-.body {
-    background: rgba(231, 231, 231, 0.91);
-    width: 90rem;
-    height: 64rem;
-    overflow-y: auto;
+                <div class="linha">
+                    <a id="inicio" href="#Inicio">INÍCIO</a>
+                </div>
 
-}
+                <div class="linha">
+                    <a id="minhaRede" href="#MinhaRede">MINHA REDE</a>
+                </div>
 
+                <div class="linha">
+                    <a id="calendario" href="/calendario/index.html">CALENDÁRIO</a>
+                </div>
 
-.responsive{
-    display: flex;
+                <div class="linha">
+                    <a id="meuPerfil" href="#Meu Perfil">MEU PERFIL</a>
+                </div>
+            </div>
 
-}
+            <div class="perfilIcon">
+                <a href="#Perfil"></a>
+            </div>
 
-.navbar {
-    position: fixed;
-    top: 0;
-    display: flex;
-    background-color: #2D2E4A;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding-left: 1.3rem;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
-    width: 8.938rem;
-    margin-inline-start: 7px;
-    margin-top: 1.25rem;
-    top: -0.688rem;
-    height: 45.375rem;
 
-}
+        </header>
 
-.nav {
-    height: 62.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 6.25rem;
-    text-align: center;
 
 
-}
+        <main>
+            <div class="bemVindo">
+                <h2 class="txtBemVindo">Bem-vinda </h2>
+                <h2 class="userName">Mamãe</h2>
+            </div>
 
-.linha a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    margin-right: 0.625rem;
+            
 
+        <div class="container">
+            <div class="containerCalendario">
+                <div class="consultasCalendario">
+                    <div class="circulo">
+                        <img src="./img/perfil.png" alt="">
+                    </div> 
+        
 
-}
+                    <div class="capaPerfil" alt="">
+                       
+                    </div>
 
-#minhaRede {
-    margin-right: 0.625rem;
-    font-size: 20px !important;
-    letter-spacing: 0.25rem;
-}
-
-
-#inicio {
-    font-size: 20px;
-    letter-spacing: 0.125rem;
-}
-
-#calendario {
-    font-size: 15px;
-}
-
-#meuPerfil {
-    font-size: 17px;
-    letter-spacing: 0.25rem;
-
-}
-
-.logo {
-
-    transform: translateY(20px);
-    height: auto;
-    width: 3.125rem;
-    display: flex;
-    justify-content: center;
-    margin-left: 1.625rem;
-    
-}
-
-
-
-
-
-.bemVindo {
-  margin-left: 11rem;
-  margin-top: 2rem;
- 
-  
-}   
-
-
-.txtBemVindo {
-    font-size: 1.563rem;
-    width: 9.375rem;
-  
-    
-}
-
-.userName {
-    font-size: 1.5rem;
-
-}
-
-
-
-.carrossel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1.25rem;
-    background: #2D2E4A;
-    width: 58rem;
-    height: 22rem;
-    margin-left: 11rem;
-    margin-top: 0.5rem;
-
-}
-
-
-.capaPerfil{
- 
-    border-radius: 25px;
-    width: 21.875rem;
-    height: 12.5rem;
-    background: url(./img/capa.png);
-    margin-bottom: 1rem;
-    margin-bottom: 3rem;
-}
-
-
-.nomePerfilCapa{
-    color: rgb(0, 0, 0) ;
-    font-size: 25px;
-    width: fit-content;
-    display: flex;
-    margin-left: 1rem;
-    margin-top: -3rem;
-    justify-content: center;
-    
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-}
-
-.calendar{
-    background-color: #2D2E4A;
-    border-radius: 15px;
-}
-
-.calendar .date{
-    display: flex;
-    justify-content: center;
-    width: 9.375rem;
-    color: rgb(37, 37, 37);
-    font-weight: 800;
-    
-}
-
-.calendar .fa-angle-left{
-    color: white;
-    font-weight: 900;
-}
-
-.calendar .fa-angle-right{
-    color: white;
-    font-weight: 900;
-}
-
-.calendar .month .prev, 
-.calendar .month .next{
-    cursor: pointer;
-}
-
-.calendar .month .prev:hover, 
-.calendar .month .next:hover{
-    color: var(--primary-clr) ;
-}
-
-.month{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5rem;
-    padding: 10px;
-    
-}
-
-#date{
-    color: white;
-}
-
-.calendar .weekdays{
-    width: 100%;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: white;
-}
-
-.calendar .weekdays div{
-    width: 14.28%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.calendar .days{
-    
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 10px;
-    font-size: 1rem;
-    font-weight:500;
-    margin-bottom:10px ;
-    border-radius: 10px;
-}
-
-.calendar .days .day{
-    /* border-radius: 5px; */
-    width: 14.28%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    color: var(--primary-clr);
-    border: 1px solid #f5f5f5;
-    background: rgb(226, 119, 205);
-}
-
-.calendar .day:not(.prev-date , .next-date):hover{
-    color: #fff;
-    background-color:#2D2E4A ;
-}
-
-.calendar .days .prev-date,
-.calendar .days .prev-date{
-    color: rgb(169, 82, 152);
-}
-
-.calendar .days .active{
-    position: relative;
-    font-size: 1.7rem;
-    color: #fff;
-    background-color: var(--primary-clr);
-}
-
-
-.calendar .days .active::before{
-content: '';
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-box-shadow: 0 0 18px 2px var(--primary-clr);
-}
-
-.calendar .days .today{
-    font-size: 1.2rem;
-    background-color: #2D2E4A;
-    color:rgb(226, 119, 205) ;
-
-}
-
-.calendar .days .event{
-    position: relative;
-
-}
-
-.calendar .days .event::after{
-    content: '';
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    width: 75%;
-    height: 6px;
-    border-radius: 30px;
-    transform: translateX(-50%);
-    background-color: var(--primary-clr);
-}
-
-.calendar .event:hover::after{
-    background-color:#fff;
-
-}
-
-.calendar .active.event::after{
-background-color: #fff;
-bottom: 20%;
-}
-
-.calendar .active.event{
-padding-bottom: 10px;
-}
-
-.calendar .goto-today{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-    color: var(--primary-clr);
-}
-
-.calendar .goto-today .goto{
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    overflow: hidden;
-    border: 1px solid var(--primary-clr);
-}
-
-.calendar .goto-today .goto :hover{
-    color: rgb(226, 119, 205);
-}
-
-.calendar .goto-today .goto input{
-    width: 100%;
-    height: 30px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    padding: 0 20px;
-    color: var(--primary-clr);
-    border-radius: 5px;
-}
-
-.calendar .goto-today button{
-    color: white;
-    padding: 5px 10px;
-    border: 1px solid var(--primary-clr);
-    border-radius: 5px;
-    background-color: transparent;
-    cursor: pointer;
-    
-}
-
-.calendar .goto-today button:hover{
-    color: rgb(226, 119, 205);
-    background-color: var(--primary-clr);
-    
-}
-
-.calendar .goto-today .goto button{
-    border: none;
-    border-left: 1px solid var(--primary-clr);
-    border-radius: 0;
-    color: white ;
-}
-
-
-
-.containerCalendario{
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column-reverse;
-    float: right;
-    width: 350px;
-    height: 600px;
-    border-radius: 25px;
-    background: rgb(226, 119, 205);
-    margin-left: 2rem;
-    margin-right: -24rem;
-    margin-top: -3.5rem;
-
-}
-
-
- .consultas{
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-    width: 350px;
-    height: 150px;
-    background-color: #2D2E4A;
-
-
-}  
-
-.consultas h3{
-    
-    color: white;
-    margin-top: 1rem ;
-}
-
-
-.compartilhe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -26rem;
-    margin-left: 15rem;
-
-}
-
-
-.novoPost{
-    display: flex;
-    height: 10rem ;
-    width: 50rem;
-    border-radius: 10px;
-    border: solid #2D2E4A 5px;
-    resize: none;
-    margin-left: 13rem;
-    margin-right: 5rem;
-    margin-top: 2rem;
-    margin-bottom: 27rem;
-    background: #ffffff;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
-    
-
-}
-
-.novoPost ::placeholder {
-    color: #999; 
-    opacity: 1; 
-}
-
-.compartilhe button{
-    width: 40rem;
-    margin-left: -10rem;
-    height: 1.875rem;
-    border-radius: 30px;
-    background-color: #B0A3BA;
-    border-radius: 25px;
-    border: 1px solid #B0A3BA;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.31);
-}
-
-.compartilhe button :hover{
-    background-color: #F5F5F5;
-}
-
-
-
-.boxContainer {
-    width: 52.875rem;
-    height: 81.563rem;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #FFF;
-    margin-left: 180px;
-    margin-top:1.25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-
-.post {
-    margin-left: 2.188rem;
-    margin-top: 1.25rem;
-    width: 48.6rem;
-    height: 23.188rem;
-    flex-shrink: 0;
-    border-radius: 25px;
-    background: rgba(236, 135, 207, 0.62);
-    
-
-}
-
-
-.circulo img {
-    width: 4.75rem;
-    height: 4.75rem;
-    border-radius: 50%;
-    margin-right: 16rem;
-    float: right;
-    margin-top: 8rem;
-}
-
-.espacoPost {
-    width: 44.188rem;
-    height: 12.5rem;
-    flex-shrink: 0;
-    border-radius: 1.625rem;
-    background: #FFF;
-    margin-left: 2.188rem;
-    margin-top: 1.875rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
-    
-}
-
-.conteudoPost{
-   padding: 3.125rem;
-   max-width: 100%; 
-    overflow-wrap: break-word; 
-}
-
-.perfilPost{
-    margin-left: 1.313rem;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    
-
-}
-.nomePerfil {
-    padding: 0.625rem;
-    font-size: 1.25rem;
-    display: flex;
-}
-
-.usuarioData {
-    display: flex;
-    flex-direction: column;
+                    <div class="nomePerfilCapa">
+                        <span>Janete Siqueira</span>
+                       </div>
    
-}
-.dataPost{
-    padding: 0.625rem;
-}
+                       <div class="calendar">
+                        <div class="month">
+                            <i class="fa fa-angle-left prev"> </i>
+                            <div id="date" class="date"></div>
+                            <i class="fa fa-angle-right next"> </i>
+                        </div>
+                        <div class="weekdays">
+                            <div>Dom</div>
+                            <div>Seg</div>
+                            <div>Ter</div>
+                            <div>Qua</div>
+                            <div>Qui</div>
+                            <div>Sex</div>
+                            <div>Sáb</div>
+                        </div>
+                        <div class="days">
+                            <a href="/calendario/index.html"></a>
+                            <!-- Javascript -->
+        
+                        </div>
+                        <div class="goto-today">
+                            <div class="goto">
+                                <input type="text" placeholder="mm/yyyy" class="date-input">
+                                <button class="goto-btn">Ir</button>
+                            </div>
+                            <button class="today-btn">Hoje</button>
+                        </div>
+                    </div>
+                   
 
-.perfilPost img{
-    width: 5.75rem;
-    height: 5.75rem;
-    border-radius: 50%;
-    margin-top: 1rem;
-}
+                </div>
 
-@media (max-width: 605px) {
+             
 
-.responsive{
-    display: flex;
-    flex-direction: column;
-}
+            </div>
+        </div>
 
-}
+            <section class="carrosselFlex">
+                <div class="carrossel">
+                    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="imgTopico" src="./img/topico01.png" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imgTopico" src="./img/topico02.png" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="imgTopico" src="./img/topico03.png" alt="">
+                            </div>
+                        </div>
+                        <div class="botaoCarrossel">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                        </div>
+
+
+
+                        <div class="botaoCarrossel2">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+            </section>
+
+
+            <textarea class="novoPost" placeholder="O que está pensando?" id="novoPost"></textarea>
+
+            <div class="compartilhe">
+                <form>
+
+                    <button id="compartilharBtn" type="button">Compartilhe</button>
+                </form>
+            </div>
+
+
+
+
+
+            <section class="tudao">
+
+                <div id="boxContainer" class="boxContainer">
+                    <div id="postsContainer">
+                        <div class="post">
+                            <div class="perfilPost">
+                                <img src="./img/perfil2.png" alt="">
+                                <div class="usuarioData">
+                                    <h2 class="nomePerfil">Francilene</h2>
+                                    <h4 class="dataPost">23/11/2023</h4>
+                                </div>
+                            </div>
+
+
+
+                            <div class="espacoPost">
+                                <p class="conteudoPost">Mamães incríveis! 🚀 Às vezes, é fácil se perder na correria,
+                                    né? Mas hoje, quero celebrar as pequenas vitórias. Desde o primeiro sorriso do bebê
+                                    até aquela mamada bem-sucedida. Cada passo é uma conquista! Como vocês celebram as
+                                    vitórias diárias? Eu costumo tirar uma foto ou anotar no meu diário de mãe. Vamos
+                                    espalhar positividade! 🎉 #MãeVitoriosa #PequenasAlegrias</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="perfilPost">
+                                <img src="./img/perfil3.png" alt="">
+                                <div class="usuarioData">
+                                    <h2 class="nomePerfil">Marta</h2>
+                                    <h4 class="dataPost">24/11/2023</h4>
+                                </div>
+                            </div>
+
+
+                            <div class="espacoPost">
+                                <p class="conteudoPost">Oi, mamães ! 🌙 Sei que as noites mal dormidas podem ser
+                                    difíceis. Minha experiência? Tive minhas doses de noites em claro, mas aprendi a
+                                    abraçar o poder das sonecas durante o dia. Troca de turno com o parceiro, cochilos
+                                    quando o bebê cochila e, claro, um bom café! 😅 Quem mais está nesse barco? Vamos
+                                    compartilhar nossas dicas de sobrevivência! ☕ #NoitesDeMãe #SonoDoBebê</p>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="perfilPost">
+                                <img src="./img/perfil.png" alt="">
+                                <div class="usuarioData">
+                                    <h2 class="nomePerfil">Iranete</h2>
+                                    <h4 class="dataPost">22/11/2023</h4>
+                                </div>
+                            </div>
+
+                            <div class="espacoPost">
+                                <p class="conteudoPost">Oi, mãezinhas! 🌸 Só queria compartilhar um pouquinho da minha
+                                    jornada na maternidade. Às vezes, é como navegar por um oceano desconhecido, mas
+                                    cada onda, por mais desafiadora que seja, traz consigo uma tonelada de amor e
+                                    aprendizado. A maternidade é uma montanha-russa emocional, mas vale cada segundo.
+                                    Alguma mamãe aí se identifica? Contem-me as histórias de vocês! 💖 #MaternidadeReal
+                                    #MãeDePrimeiraViagem</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+
+        </main>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./server.js"></script>
+
+
+</body>
