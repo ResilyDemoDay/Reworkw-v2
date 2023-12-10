@@ -4,9 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class Conexao {
-	String url = "jdbc:mysql://dbresily.c6zmfmlq2vdq.us-east-1.rds.amazonaws.com:3306?serverTimesone=UTC";
-	String user = "admin";
-	String passWord = "A123456789";
+	String url = "jdbc:mysql:";
+	String user = "";
+	String passWord = "";
 	
 	
 	public Connection getConexao() {	
